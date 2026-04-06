@@ -35,7 +35,7 @@ const Login = () => {
             <div className="inline-flex p-4 bg-indigo-100 dark:bg-indigo-900/40 rounded-2xl mb-4">
               <Code2 className="w-10 h-10 text-indigo-600 dark:text-indigo-400" />
             </div>
-            <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white">Admin Login</h1>
+            <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white">Admin System Login</h1>
             <p className="text-gray-500 dark:text-gray-400 mt-2">Sign in to manage your portfolio</p>
           </div>
 
@@ -57,7 +57,7 @@ const Login = () => {
                   required
                   value={formData.email}
                   onChange={e => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="admin@example.com"
+                  placeholder="Enter Your Email" // Updated placeholder
                   className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900/50 focus:border-indigo-500 outline-none transition-all text-gray-900 dark:text-white"
                 />
               </div>
